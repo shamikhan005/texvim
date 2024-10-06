@@ -47,7 +47,7 @@ yarn install
 yarn dev
 ```
 
-### usage 
+## usage 
 
 after starting the development server, you can interact with that chat application:
 - open `http://localhost:3000` in your browser.
