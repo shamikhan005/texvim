@@ -1,6 +1,6 @@
 # texvim
 
-texvim is a scalable chat app foundation. unlike typical chat applications, where messages are emitted directly on the serve, texvim uses redis to emit messages and then distribute them to multiple servers, ensuring that users on different servers receive messages seamlessly. from redis the message is sent to kafka for stream processing, stored in postgresql, and consumed by node.js.
+texvim is a scalable chat app foundation. unlike typical chat applications, where messages are emitted directly on the server, texvim uses redis to emit messages and then distribute them to multiple servers, ensuring that users on different servers receive messages seamlessly. from redis the message is sent to kafka for stream processing, stored in postgresql, and consumed by node.js.
 
 
 ![Screenshot 2024-10-06 191920](https://github.com/user-attachments/assets/c5ad2239-28d9-4211-8a1f-24e8ef7d94e8)
