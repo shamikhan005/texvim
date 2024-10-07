@@ -11,7 +11,7 @@ const pub = new Redis({
 });
 const sub = new Redis({
   host: "",
-  port: 25808,
+  port: ,
   username: "default",
   password: ""
 });
